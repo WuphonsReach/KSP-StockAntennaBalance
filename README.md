@@ -4,11 +4,13 @@ Rebalances the stock KSP 1.2 antennas.
 
 # Goals:
 
-- Designed for use with the DSN strength set to 0.10 (1/10th of normal) to 1.00 (normal).
-- Put more emphasis on having a good set of relay satellites around Kerbin and other planetary bodies.
-- Direct connections are much harder to obtain without a relay satellite.
-- RA-100 Relay Antenna should only be needed for outer planet mods (like RSS, OPM).
+- Relay antennas have more bandwidth, but are much more power-hungry then direct-connect antennas.  You won't want to use them on small probes that gather science.
+- Relay antennas have equivalent (or better) power to the Tracking Station (TS) / Deep Space Network (DSN) of the same level.
 - Relay antennas can be used to augment the tracking station (or DSN) on Kerbin when extra ground stations are disabled in the advanced difficulty options.
+- Put more emphasis on having a good set of relay satellites around Kerbin and other planetary bodies.
+- Direct connections are much harder to obtain from the other planets without a relay satellite at the planet.
+- RA-100 Relay Antenna is useful for outer planet mods (like RSS, OPM).
+- Balanced for use with the DSN strength set to 0.10 (1/10th of normal) to 1.00 (normal).
 
 # Part changes:
 
@@ -25,8 +27,8 @@ you really need to use a relay satellite network to get the science and signal b
 
 ### Relay Antennas
 
-The relay antennas have been boosted in power to be equal or better then the Deep Space Network (DSN) on Kerbin.
-This gives better gameplay where the extra ground stations on Kerbin have been disabled.
+The relay antennas have been boosted in power to be equal or better then the Deep Space Network (DSN) / Tracking Station (TS) on Kerbin.
+This gives better gameplay where the extra ground stations on Kerbin have been disabled, or the DSN strength has been lowered drastically.
 
 - HG-5 High Gain Antenna -- 2.5x as powerful as DSN level 1, partial coverage of inner-planets at DSN2
 - RA-2 Relay Antenna -- equal to DSN level 2, full coverage of Eve/Moho/Duna when talking to DSN2 or RA-2 at Kerbin
