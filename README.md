@@ -1,24 +1,44 @@
 # KSP-StockAntennaBalance
 
-Rebalances the stock KSP 1.2 antennas.
+Rebalances the stock KSP 1.2 antennas to put more emphasis on relay satellites and setting up a communications network around the major planets.
+
+Please note that if KSC or the ground-based DSN stations have anything over 1% signal that your probe / spacecraft will prefer to direct-connect instead of bouncing through a more powerful relay.
+This is just how the stock CommNet system works in KSP 1.2, it's not that aggressive at finding better paths or evaluating the signal strength on alternate paths if a direct connection to KSC is available.
+This can be worked around by lowering the power level of the DSN to 0.10 or lower in the game difficulty settings.
 
 # Current Balance Goals:
 
 - Relay antennas have more bandwidth, but are much more power-hungry then direct-connect antennas.  You won't want to use them on small probes that gather science.
 - Relay antennas have equivalent (or better) power to the Tracking Station (TS) / Deep Space Network (DSN) of the same level.
 - Relay antennas can be used to augment the tracking station (or DSN) on Kerbin when extra ground stations are disabled in the advanced difficulty options.
-- Relay antennas are heavier and costlier then stock.
+- Relay antennas are heavier and costlier then stock and have a constant power draw.
 - For those that like the HG-5 model but wish it came in a direct-connect version, this makes a copy of the HG-5 relay antenna called the HG-5D.  It has the same power and mass as the Comm HG-55.
 - The direct-connect HG-55 now comes in a copy called the HG-55R for use as a relay antenna (equal to the HG-5).
 - Put more emphasis on having a good set of relay satellites around Kerbin and other planetary bodies.
 - Direct connections are much harder to obtain from the other planets without a relay satellite at the planet.
-- RA-100 Relay Antenna is useful for outer planet mods (like RSS, OPM).
+- RA-100 Relay Antenna is useful for outer planet mods like OPM/RSS (but have not been tested).
 - Balanced for use with the DSN strength set to 0.10 (1/10th of normal) to 1.00 (normal).
 
 # Future:
 
 - More balancing.
+- Explicit compatibility with outer planet mods, alternate solar systems, other antennas provided by part packs.
 - RA-100 may get more powerful (possibly only if RSS is installed).
+
+# Installation:
+
+Because this is all done through ModuleManager patches and no new models or assets are included, it doesn't matter where you put the contents of the .zip file as long as it's under GameData/ somewhere.  
+
+- You must have ModuleManager installed (or from GitHub releases), this comes with a lot of other addons, so I'm not including it.
+- Download one of the releases from GitHub.
+- Extract the .zip file into a folder under your GameData/ directory.
+
+Removal is easy as long as you have not used any of the antennas which were added by this mod, removing this addon's folder under GameData/ will revert your antennas to the stock capabilities.
+
+# Effect on existing games:
+
+- May cause loss of probe / craft control due to changed CommNet ranges.
+- Science gathering spacecraft may be unable to send data back home if they only have relay antennas installed (and not enough battery capacity to process and transmit the data).
 
 # Part changes:
 
@@ -65,7 +85,7 @@ These antennas are also a lot more power-hungry and massive then stock, so you w
 ### RA-2 Relay Antenna or DSN Level 2 @ Kerbin
 
 Once you have your TS/DSN upgraded to level 2, or a few RA-2 relay satellites in orbit around Kerbin, you can reach all of the inner planets.
-Dres will only have partial coverage through its orbit, even with a RA-2 at Dres, but if you have an HG-5 or RA-2 inside of Kerbin's orbit you can probably get a good relay.
+Dres will only have partial coverage through its orbit, even with a RA-2 at Dres, but if you have an HG-5 or RA-2 inside of Kerbin's orbit you can probably get a bounce.
 
 - Command Module = 15,811km (15% at Mun)
 - Comm-16S = 158Mm (79% at Minmus)
@@ -109,4 +129,10 @@ https://docs.google.com/spreadsheets/d/1yj08CJX458ZbHOsLgVckEtqvHUj5KkP1En-R1kLI
 
 # Changes
 
-TODO
+### v1.2.2.1
+
+- Created an HG-5D (direct-connection version of the HG-5 relay).
+- Created an HG-55R (relay version of the HG-55 direct-connect).
+- Adjust the name of the stock HG-5 and HG-55 to be clearer about direct-connect vs relay operation.
+- Increased mass and costs on the relay antennas, you won't want to loft these en masse in career mode.
+- Relay antennas now have a constant power draw (0.5 EC/s up to 6.0 EC/s).
