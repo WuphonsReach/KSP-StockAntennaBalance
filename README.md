@@ -4,7 +4,7 @@ Rebalances the stock KSP 1.2 antennas to put more emphasis on relay satellites a
 
 Please note that if KSC or the ground-based DSN stations have anything over 1% signal that your probe / spacecraft will prefer to direct-connect instead of bouncing through a more powerful relay.
 This is just how the stock CommNet system works in KSP 1.2, it's not that aggressive at finding better paths or evaluating the signal strength on alternate paths if a direct connection to KSC is available.
-This can be worked around by lowering the power level of the DSN to 0.10 or lower in the game difficulty settings.
+This can be worked around by lowering the power level of the DSN to 0.01 in the game difficulty settings.
 
 # Current Balance Goals:
 
@@ -17,7 +17,7 @@ This can be worked around by lowering the power level of the DSN to 0.10 or lowe
 - Put more emphasis on having a good set of relay satellites around Kerbin and other planetary bodies.
 - Direct connections are much harder to obtain from the other planets without a relay satellite at the planet.
 - RA-100 Relay Antenna is useful for outer planet mods like OPM/RSS (but have not been tested).
-- Balanced for use with the DSN strength set to 0.10 (1/10th of normal) to 1.00 (normal).
+- Balanced for use with the DSN strength set to 0.01 (1/100th of normal) to 1.00 (normal).
 
 # Future:
 
@@ -87,6 +87,8 @@ These antennas are also a lot more power-hungry and massive then stock, so you w
 Once you have your TS/DSN upgraded to level 2, or a few RA-2 relay satellites in orbit around Kerbin, you can reach all of the inner planets.
 Dres will only have partial coverage through its orbit, even with a RA-2 at Dres, but if you have an HG-5 or RA-2 inside of Kerbin's orbit you can probably get a bounce.
 
+If you put up a satellite with three to four RA-2, then a single RA-2 at Dres will reach back, even at max range from Kerbin.
+
 - Command Module = 15,811km (15% at Mun)
 - Comm-16S = 158Mm (79% at Minmus)
 - Comm-16 = 316Mm (94% at Minmus)
@@ -97,14 +99,15 @@ Dres will only have partial coverage through its orbit, even with a RA-2 at Dres
 
 ### Deep Space Network (DSN) - Level 3
 
-Jool and Eeloo start to become possible.
+Jool and Eeloo start to become possible. 
 
 - RA-2 = 112Gm (14% at Jool's max, 54% at Eeloo min, 56% at Jool min)
 - RA-15 = 354Gm (71% at Eeloo max)
 
 ### RA-15 Relay Antenna @ Kerbin
 
-Jool and Eeloo are definitely within reach from Kerbin and OPM planets come into range.
+Jool and Eeloo are definitely within reach from Kerbin and OPM planets come into range.  
+You'll require a minimum of an RA-2 relay satellite at Jool/Eeloo in order to get the signal back, because the HG-5 relay and the Comm 88-88 just won't reach unless you put up multiple RA-15s on the same satellite at Kerbin.
 
 - RA-2 = 158Gm (10% at Eeloo max, 74-75% at Jool/Eeloo min)
 - RA-15 = 500Gm (84% at Eeloo max, partial reach to all OPM planets)
@@ -136,3 +139,8 @@ https://docs.google.com/spreadsheets/d/1yj08CJX458ZbHOsLgVckEtqvHUj5KkP1En-R1kLI
 - Adjust the name of the stock HG-5 and HG-55 to be clearer about direct-connect vs relay operation.
 - Increased mass and costs on the relay antennas, you won't want to loft these en masse in career mode.
 - Relay antennas now have a constant power draw (0.5 EC/s up to 6.0 EC/s).
+
+### v1.2.2.2
+
+- Relay antenna power draw modified (0.25 EC/s up to 50 EC/s)
+- RA-100 boosted from 2T to 3T power
