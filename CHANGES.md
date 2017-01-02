@@ -4,8 +4,9 @@
 
 - Relay antennas power draw modified (0.4 EC/s up to 30 EC/s)
 - RA-100 boosted from 2T to 3T power
-- Created contracts to put up relays in stationary orbit around Kerbin (or home world)
-- Created contracts for polar relays around home world
+- Created contracts for network (requires ContractConfigurator to be installed)
+- Home world (Kerbin) stationary (KEO) contracts for the four relay tiers
+- Polar home world contracts added
 
 ### v1.2.2.1 - Dec 27 2016
 
