@@ -130,17 +130,4 @@ My customized version of the spreadsheet is at (use File -> Make a copy):
 
 https://docs.google.com/spreadsheets/d/1yj08CJX458ZbHOsLgVckEtqvHUj5KkP1En-R1kLIYyw/edit?usp=sharing
 
-# Changes
 
-### v1.2.2.1
-
-- Created an HG-5D (direct-connection version of the HG-5 relay).
-- Created an HG-55R (relay version of the HG-55 direct-connect).
-- Adjust the name of the stock HG-5 and HG-55 to be clearer about direct-connect vs relay operation.
-- Increased mass and costs on the relay antennas, you won't want to loft these en masse in career mode.
-- Relay antennas now have a constant power draw (0.5 EC/s up to 6.0 EC/s).
-
-### v1.2.2.2
-
-- Relay antenna power draw modified (0.25 EC/s up to 50 EC/s)
-- RA-100 boosted from 2T to 3T power
