@@ -4,7 +4,7 @@ Rebalances the stock KSP 1.2 antennas to put more emphasis on relay satellites a
 
 Please note that if KSC or the ground-based DSN stations have anything over 1% signal that your probe / spacecraft will prefer to direct-connect instead of bouncing through a more powerful relay.
 This is just how the stock CommNet system works in KSP 1.2, it's not that aggressive at finding better paths or evaluating the signal strength on alternate paths if a direct connection to KSC is available.
-This can be worked around by lowering the power level of the DSN to 0.01 in the game difficulty settings.
+This can be worked around by lowering the power level of the DSN to 0.02 in the game difficulty settings.
 
 # Current Balance Goals:
 
@@ -16,20 +16,22 @@ This can be worked around by lowering the power level of the DSN to 0.01 in the 
 - The direct-connect HG-55 now comes in a copy called the HG-55R for use as a relay antenna (equal to the HG-5).
 - Put more emphasis on having a good set of relay satellites around Kerbin and other planetary bodies.
 - Direct connections are much harder to obtain from the other planets without a relay satellite at the planet.
-- RA-100 Relay Antenna is useful for outer planet mods like OPM/RSS (but have not been tested).
-- Balanced for use with the DSN strength set to 0.01 (1/100th of normal) to 1.00 (normal).
+- RA-100 Relay Antenna is useful for outer planet mods like OPM/RSS (but has not been tested).
+- Balanced for use with the DSN strength set to 0.02 (1/50th of normal).
 
 # Future:
 
 - More balancing.
 - Explicit compatibility with outer planet mods, alternate solar systems, other antennas provided by part packs.
 - RA-100 may get more powerful (possibly only if RSS is installed).
+- More contracts.
 
 # Installation:
 
 Because this is all done through ModuleManager patches and no new models or assets are included, it doesn't matter where you put the contents of the .zip file as long as it's under GameData/ somewhere.  
 
 - You must have ModuleManager installed (or from GitHub releases), this comes with a lot of other addons, so I'm not including it.
+- I suggest that you install ContractConfigurator, which will give you contracts to build out your CommNet.
 - Download one of the releases from GitHub.
 - Extract the .zip file into a folder under your GameData/ directory.
 
