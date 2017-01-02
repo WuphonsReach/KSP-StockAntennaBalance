@@ -1,12 +1,12 @@
 # Changes
 
-### v1.2.2.2 - Jan XX 2017
+### v1.2.2.2 - Jan 2 2017
 
 - Relay antennas power draw modified (0.4 EC/s up to 30 EC/s)
 - RA-100 boosted from 2T to 3T power
 - Created contracts for network (requires ContractConfigurator to be installed)
 - Home world (Kerbin) stationary (KEO) contracts for the four relay tiers
-- Polar home world contracts added
+- Polar home world contracts added for RA-2 (tier 2) relays and up
 
 ### v1.2.2.1 - Dec 27 2016
 
