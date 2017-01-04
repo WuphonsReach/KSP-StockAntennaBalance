@@ -1,5 +1,13 @@
 # Changes
 
+### v1.2.2.3 - Jan 4 2017
+
+- Added contracts for inner world (anything inside home world orbit)
+- Outer world contracts (out to 7.5x distance of homeworld based on SMA)
+- Home world moon contracts now count up existing vessels for relay power before being offered
+- Balanced contract rewards, loosened up deviation windows
+- Better use of VesselParameterGroup from ContractConfigurator
+
 ### v1.2.2.2 - Jan 2 2017
 
 - Relay antennas power draw modified (0.4 EC/s up to 30 EC/s)
