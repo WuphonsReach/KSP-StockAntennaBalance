@@ -1,6 +1,7 @@
 # Changes
 
 ### v1.2.2.4 - Jan 6 2017
+
 - Boost rewards for tier 3/4 polar/stationary homeworld contracts
 - Loosen up deviation windows (how close you have to be to the target orbit)
 - Allow up to 3 inner and 3 outer planet contracts at same time
