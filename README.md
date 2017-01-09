@@ -6,6 +6,10 @@ Please note that if KSC or the ground-based DSN stations have anything over 1% s
 This is just how the stock CommNet system works in KSP 1.2, it's not that aggressive at finding better paths or evaluating the signal strength on alternate paths if a direct connection to KSC is available.
 This can be worked around by lowering the power level of the DSN to 0.02 in the game difficulty settings.
 
+Forum thread:
+
+http://forum.kerbalspaceprogram.com/index.php?/topic/153998-122-stock-antenna-balance-jan-4-2017/
+
 # Current Balance Goals:
 
 - Relay antennas have more bandwidth, but are much more power-hungry then direct-connect antennas.  You won't want to use them on small probes that gather science.

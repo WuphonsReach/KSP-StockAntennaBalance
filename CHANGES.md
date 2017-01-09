@@ -1,5 +1,11 @@
 # Changes
 
+### v1.2.2.5 - Jan 8 2017
+
+- Boost rewards for inner/outer planet relay contracts
+- Inner/outer planet contracts now require 90 days of settle time
+- Create contracts for inner/outer planet's moon relays
+
 ### v1.2.2.4 - Jan 6 2017
 
 - Boost rewards for tier 3/4 polar/stationary homeworld contracts
