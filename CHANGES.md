@@ -1,5 +1,10 @@
 # Changes
 
+### v1.2.2.6 - Jan/Feb XX 2017
+
+- WARNING: Do not install this unless you have fewer than 3-4 contracts active
+- Reduce number of simultaneous contracts for the entire group down to 5
+
 ### v1.2.2.5 - Jan 8 2017
 
 - Boost rewards for inner/outer planet relay contracts
