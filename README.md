@@ -10,6 +10,10 @@ Forum thread:
 
 http://forum.kerbalspaceprogram.com/index.php?/topic/153998-122-stock-antenna-balance-jan-4-2017/
 
+SpaceDock:
+
+http://spacedock.info/mod/1161/Stock%20Antenna%20Balance
+
 # Current Balance Goals:
 
 - Relay antennas have more bandwidth, but are much more power-hungry then direct-connect antennas.  You won't want to use them on small probes that gather science.
