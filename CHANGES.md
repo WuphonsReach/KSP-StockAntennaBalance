@@ -1,5 +1,10 @@
 # Changes
 
+### v1.2.2.7 - Jan XX 2017
+
+- Loosen up maxAcceleration parameter (from 0.1 to 0.2)
+- Loosen up stationary orbit deviation window
+
 ### v1.2.2.6 - Jan 10 2017
 
 - WARNING: Do not install this unless you have fewer than 3-4 contracts active
