@@ -1,9 +1,12 @@
 # Changes
 
-### v1.2.2.7 - Jan XX 2017
+### v1.2.2.7 - Jan 24 2017
 
 - Loosen up maxAcceleration parameter (from 0.1 to 0.2)
 - Loosen up stationary orbit deviation window
+- Increase rewards and make them randomized
+- Rebalance some contract parameters
+- Boost number of simultaneous contracts for the entire group up to 6
 
 ### v1.2.2.6 - Jan 10 2017
 
