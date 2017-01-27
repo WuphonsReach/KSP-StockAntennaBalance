@@ -1,5 +1,10 @@
 # Changes
 
+### v1.2.2.8 - Jan XX 2017
+
+- Reorganized, make sure you delete the old install folder before upgrading
+- MM patches for DMagic Orbital Science antennas (Soil Moisture & SIGINT)
+
 ### v1.2.2.7 - Jan 24 2017
 
 - Loosen up maxAcceleration parameter (from 0.1 to 0.2)
