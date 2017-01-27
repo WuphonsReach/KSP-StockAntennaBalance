@@ -4,6 +4,8 @@
 
 - Reorganized, make sure you delete the old install folder before upgrading
 - MM patches for DMagic Orbital Science antennas (Soil Moisture & SIGINT)
+- Original DMagic Soil Mosture was 100G direct (200G relay) now 4M & 6M
+- Original Univeral Storage SM sensor was 50G direct (100G relay), now 2M & 3M
 
 ### v1.2.2.7 - Jan 24 2017
 
