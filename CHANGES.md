@@ -1,15 +1,15 @@
 # Changes
 
-### v1.2.2.8 - Jan XX 2017
+### v1.2.2.8 - Jan 27 2017
 
 - Reorganized, make sure you delete the old install folder before upgrading
 - MM patches for DMagic Orbital Science antennas (Soil Moisture & SIGINT)
-- Original DMagic Soil Mosture was 100G direct (200G relay) now 4M & 6M
-- Original Univeral Storage SM sensor was 50G direct (100G relay), now 2M & 3M
+- DMagic Soil Mosture was 100G direct (200G relay) now 4M & 6M
+- DMagic Univeral Storage SM sensor was 50G direct (100G relay), now 2M & 3M
 - SIGINT (undersized/oversized) constant power drain of 30/90 EC/s for balance
-- upgraded DMagic SIGINT (under/oversized) are now only 1.5T and 12T relays
+- DMagic upgraded SIGINT (under/oversized) are now only 1.5T and 12T relays
 - SXT Kommunotronski 16 made slightly more powerful (500k -> 800k)
-- SXT DTS-M4 made less powerful (2G -> 300M, between DTS-M1 and HG-55D)
+- SXT DTS-M4 made less powerful (2G -> 40M, below adjusted DTS-M1)
 
 ### v1.2.2.7 - Jan 24 2017
 
