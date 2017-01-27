@@ -8,6 +8,8 @@
 - Original Univeral Storage SM sensor was 50G direct (100G relay), now 2M & 3M
 - SIGINT (undersized/oversized) constant power drain of 30/90 EC/s for balance
 - upgraded DMagic SIGINT (under/oversized) are now only 1.5T and 12T relays
+- SXT Kommunotronski 16 made slightly more powerful (500k -> 800k)
+- SXT DTS-M4 made less powerful (2G -> 300M, between DTS-M1 and HG-55D)
 
 ### v1.2.2.7 - Jan 24 2017
 
