@@ -1,5 +1,15 @@
 # Changes
 
+### v1.2.2.9 - Jan/Feb XX 2017
+
+- Package README / CHANGES / LICENSE inside distribution archive
+- Better method of dealing with UPGRADES{} from forum's "blowfish" user
+- Tier 3 homeworld contracts will stil be available after tier 4 is unlocked
+- Boost rewards for tier 4 stationary, increase maximum completions
+- Lower power storage requirement for polar orbits
+- Loosen acceleration requirement for polar orbits (KSP has trouble near Pe)
+- Outer planet rewards boosted based on cube root of SMA ratio with homeworld
+
 ### v1.2.2.8 - Jan 27 2017
 
 - Reorganized, make sure you delete the old install folder before upgrading
