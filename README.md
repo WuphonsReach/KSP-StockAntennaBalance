@@ -144,7 +144,7 @@ https://docs.google.com/spreadsheets/d/1yj08CJX458ZbHOsLgVckEtqvHUj5KkP1En-R1kLI
 
 Transmit speed and cost per unit:
 
-| Part Name | Pkt Interval | Pkt Size | Pkt Cost | Transmit Rate | Cost per Unit |
+| Part Name | Pkt Interval | Pkt Size | Pkt Cost | Rate (Mits/sec) | Cost per Mit |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | pods          | 1.00 | 2 | 12 |  2.00 |  6.00 |
 | Comm-16       | 0.60 | 2 | 12 |  3.33 |  6.00 |
