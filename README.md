@@ -140,4 +140,21 @@ My customized version of the spreadsheet is at (use File -> Make a copy):
 
 https://docs.google.com/spreadsheets/d/1yj08CJX458ZbHOsLgVckEtqvHUj5KkP1En-R1kLIYyw/edit?usp=sharing
 
+# Stock Antennas
+
+Transmit speed and cost per unit:
+
+| Part Name | Pkt Interval | Pkt Size | Pkt Cost | Transmit Rate | Cost per Unit |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| pods          | 1.00 | 2 | 12 |  2.00 |  6.00 |
+| Comm-16       | 0.60 | 2 | 12 |  3.33 |  6.00 |
+| Comm-16S      | 0.60 | 2 | 12 |  3.33 |  6.00 |
+| Comm DTS-M1   | 0.35 | 2 | 12 |  5.71 |  6.00 |
+| Comm HG-55    | 0.15 | 3 | 20 | 20.00 |  6.67 |
+| Comm 88-88    | 0.10 | 2 | 20 | 20.00 | 10.00 |
+| HG-5          | 0.35 | 2 | 18 |  5.71 |  9.00 |
+| RA-2          | 0.35 | 1 | 24 |  2.86 | 24.00 |
+| RA-15         | 0.35 | 2 | 24 |  5.71 | 12.00 |
+| RA-100        | 0.35 | 4 | 24 | 11.43 |  6.00 |
+
 
