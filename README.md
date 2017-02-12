@@ -78,6 +78,8 @@ These antennas are also a lot more power-hungry and massive then stock, so you w
 
 ### Deep Space Network (DSN) - Level 1
 
+(This assumes that the DSN power slider is set to 1.00 in the Game Difficulty options.)
+
 - Command module = 3162km (suitable for LKO)
 - Comm-16S = 31,623km (68% at Mun)
 - Comm-16 = 63,245km (91% at Mun)
@@ -91,6 +93,9 @@ These antennas are also a lot more power-hungry and massive then stock, so you w
 - DTS-M1 = 707Mm (99% at Minmus)
 - Comm HG-55 = 1.58Gm
 - Comm 88-88 or HG-5 = 5Gm (17% at Eve's closest approach)
+
+For the Mun and Minmus, I move any contract satellites out to 2.2Mm (Mun) or 2.0Mm (Minmus) circular orbits after the contract is completed.
+These orbits can then be fiddled to give you better coverage of the moon's surface.
 
 ### RA-2 Relay Antenna or DSN Level 2 @ Kerbin
 
@@ -107,9 +112,12 @@ If you put up a satellite with three to four RA-2, then a single RA-2 at Dres wi
 - Comm 88-88 or HG-5 = 15.8Gm (56% at Moho's closest, 67% at Duna's closest)
 - RA-2 = 50Gm (21% at Duna's most distant position, 61% at Dres closest)
 
+One suggestion is that you move your RA-2 and higher level polar satellites out to an circular orbit around Kerbin at 80Mm Ap/Pe after completion of their contracts.  
+This will give you great coverage of Kerbin's moons and smaller blind spots.
+
 ### Deep Space Network (DSN) - Level 3
 
-Jool and Eeloo start to become possible. 
+Jool and Eeloo start to become possible. (This assumes that the DSN power slider is set to 1.00 in the Game Difficulty options.)
 
 - RA-2 = 112Gm (14% at Jool's max, 54% at Eeloo min, 56% at Jool min)
 - RA-15 = 354Gm (71% at Eeloo max)
@@ -121,6 +129,9 @@ You'll require a minimum of an RA-2 relay satellite at Jool/Eeloo in order to ge
 
 - RA-2 = 158Gm (10% at Eeloo max, 74-75% at Jool/Eeloo min)
 - RA-15 = 500Gm (84% at Eeloo max, partial reach to all OPM planets)
+
+For lower tech launches, putting a pair or triplet of RA-2 antennas on the relay going to Jool/Eeloo can be an alternative to the RA-15.  
+Alternately, putting a pair or triplet of RA-2 on a satellite at Kerbin can help improve coverage of the solar system.
 
 ### RA-100 Relay Antenna @ Kerbin
 
@@ -142,7 +153,7 @@ https://docs.google.com/spreadsheets/d/1yj08CJX458ZbHOsLgVckEtqvHUj5KkP1En-R1kLI
 
 # Stock Antennas
 
-Transmit speed and cost per unit:
+Transmit speed and cost per unit (as of KSP 1.2.2):
 
 | Part Name | Pkt Interval | Pkt Size | Pkt Cost | Rate (Mits/sec) | Cost per Mit |
 |:---:|:---:|:---:|:---:|:---:|:---:|
