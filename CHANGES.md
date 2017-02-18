@@ -1,6 +1,6 @@
 # Changes
 
-### v1.2.2.9 - Jan/Feb XX 2017
+### v1.2.2.9 - Feb XX 2017
 
 - Package README / CHANGES / LICENSE inside distribution archive
 - Better method of dealing with UPGRADES{} from forum's "blowfish" user
@@ -9,6 +9,9 @@
 - Lower power storage requirement for polar orbits
 - Loosen acceleration requirement for polar orbits (KSP has trouble near Pe)
 - Outer planet rewards boosted based on cube root of SMA ratio with homeworld
+- Use :FINAL to undo JX2Antenna/OPM Changes
+- Boost HG-5R / HG-55R from 5G to 10G (better balance for larger systems)
+- Contract rebalancing (rewards, reputation, penalties, advances)
 
 ### v1.2.2.8 - Jan 27 2017
 
