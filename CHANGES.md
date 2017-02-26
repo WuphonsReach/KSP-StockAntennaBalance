@@ -12,6 +12,7 @@
 - Use :FINAL to undo JX2Antenna/OPM Changes
 - Boost HG-5R / HG-55R from 5G to 10G (better balance for larger systems)
 - Contract rebalancing (rewards, reputation, penalties, advances)
+- Increase number of simultaneous contracts to 8
 
 ### v1.2.2.8 - Jan 27 2017
 
