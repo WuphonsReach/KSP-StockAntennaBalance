@@ -1,6 +1,14 @@
 # Changes
 
-### v1.2.2.9 - Feb 27 2017
+### v1.2.2.10 - Feb 27 2017
+
+- Use :FINAL to undo JX2Antenna/OPM Changes (@Erebus1 and @canisin)
+- Boost HG-5R / HG-55R from 5G to 10G (better balance for larger systems)
+- Contract rebalancing (rewards, reputation, penalties, advances)
+- Increase number of simultaneous contracts to 8
+- Add a tier 1 home world polar relay contract (@Apocryphus)
+
+### v1.2.2.9 - Feb 5 2017
 
 - Package README / CHANGES / LICENSE inside distribution archive
 - Better method of dealing with UPGRADES{} from forum's "blowfish" user
@@ -9,11 +17,7 @@
 - Lower power storage requirement for polar orbits
 - Loosen acceleration requirement for polar orbits (KSP has trouble near Pe)
 - Outer planet rewards boosted based on cube root of SMA ratio with homeworld
-- Use :FINAL to undo JX2Antenna/OPM Changes (@Erebus1 and @canisin)
-- Boost HG-5R / HG-55R from 5G to 10G (better balance for larger systems)
-- Contract rebalancing (rewards, reputation, penalties, advances)
-- Increase number of simultaneous contracts to 8
-- Add a tier 1 home world polar relay contract (@Apocryphus)
+- Tweak reputation rewards
 
 ### v1.2.2.8 - Jan 27 2017
 
