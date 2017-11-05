@@ -1,5 +1,9 @@
 # Changes
 
+### v1.3.1.0 - Nov 5 2017
+
+- Verify that everything is working under KSP 1.3.1
+
 ### v1.2.2.10 - Feb 27 2017
 
 - Use :FINAL to undo JX2Antenna/OPM Changes (@Erebus1 and @canisin)
