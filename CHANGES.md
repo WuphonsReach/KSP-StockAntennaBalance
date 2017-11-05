@@ -2,6 +2,7 @@
 
 ### v1.3.1.0 - Nov 5 2017
 
+- Balance changes
 - Verify that everything is working under KSP 1.3.1
 
 ### v1.2.2.10 - Feb 27 2017
