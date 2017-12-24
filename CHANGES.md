@@ -10,9 +10,9 @@
 - Use CustomBarnKit to reduce the DSN power even more (stock was 250G, new version tops out at 2G).
 - Increase power of HG5/HG55 direct antennas from 500M to 1.5G
 - DTS-M1 direct antenna, change from 100M to 500M power
-- RA-100, now 2.2T instead of 2T (but may reduce that to 1.5T)
+- RA-100, now 1.5T instead of 2T (lower required EC/s)
 - RA-2 relay power from 75G to 125G
-- RA-15 relay power, 500G to 600G
+- RA-15 relay power, 500G to 650G (lower EC/s)
 - General adjustments to how fast science is transmitted
 
 ### v1.3.1.0 - Nov 5 2017
