@@ -14,6 +14,7 @@
 - RA-2 relay power from 75G to 125G
 - RA-15 relay power, 500G to 650G (lower EC/s)
 - General adjustments to how fast science is transmitted
+- Adjustments to maximum relays around target worlds
 
 ### v1.3.1.0 - Nov 5 2017
 
