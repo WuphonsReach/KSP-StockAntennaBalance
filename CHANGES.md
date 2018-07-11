@@ -1,5 +1,10 @@
 # Changes
 
+### v1.4.4.0 - Jul 12 2018
+
+- Rebalanced a lot of antenna values to hew closer to 1.4.4 stock values
+- Rebalanced contract requirements, deadlines, rewardss
+
 ### v1.3.1.1 - Dec 23 2017
 
 - Contract orbits should now be slightly easier to achieve.  Gilly may still be difficulty.
