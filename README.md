@@ -14,18 +14,23 @@ SpaceDock:
 
 http://spacedock.info/mod/1161/Stock%20Antenna%20Balance
 
+# Tips
+
+- When completing contracts, there are parts which cause phantom forces on the vessel.  These forces go away when you use 5x/10x or higher time warp, but until you do that, you may have issues satisfying "not under acceleration".
+- Sometimes KSP contract completion requires a fine eye for orbit inclination.  Do some careful orbit tweaking around the ascending/descending node of the target orbit.
+
 # Current Balance Goals:
 
 - Relay antennas have more bandwidth, but are much more power-hungry then direct-connect antennas.  You won't want to use them on small probes that gather science.
 - Relay antennas have equivalent (or better) power to the Tracking Station (TS) / Deep Space Network (DSN) of the same level.
 - Relay antennas can be used to augment the tracking station (or DSN) on Kerbin when extra ground stations are disabled in the advanced difficulty options.
 - Relay antennas are heavier and costlier then stock and have a constant power draw.
-- For those that like the HG-5 model but wish it came in a direct-connect version, this makes a copy of the HG-5 relay antenna called the HG-5D.  It has the same power and mass as the Comm HG-55.
-- The direct-connect HG-55 now comes in a copy called the HG-55R for use as a relay antenna (equal to the HG-5).
+- For those that like the HG-5 model but wish it came in a direct-connect version, this makes a copy of the HG-5 relay antenna called the HG-5D.  
+- The direct-connect HG-55 now comes in a copy called the HG-55R for use as a relay antenna.
 - Put more emphasis on having a good set of relay satellites around Kerbin and other planetary bodies.
 - Direct connections are much harder to obtain from the other planets without a relay satellite at the planet.
 - RA-100 Relay Antenna is useful for outer planet mods like OPM/RSS (but has not been tested).
-- Balanced for use with the DSN strength set to 0.02 (1/50th of normal).
+- Balanced for use with the DSN modifier set to 0.02 (1/50th of normal) and Range Modifier of 0.70 (both are under Advanced Options).
 
 # Future:
 
