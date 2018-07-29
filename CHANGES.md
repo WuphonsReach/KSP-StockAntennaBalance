@@ -1,9 +1,16 @@
 # Changes
 
-### v1.4.4.0 - Jul 12 2018
+### v1.4.4.0 - Jul 29 2018
 
 - Rebalanced a lot of antenna values to hew closer to 1.4.4 stock values
-- Rebalanced contract requirements, deadlines, rewardss
+- Lower battery capacity requirements on most contracts, some relays have lower power consumption
+- Rebalanced contract requirements, deadlines, rewards (with more notes in ContractGroup.cfg explaining power levels)
+- Add a relay version of the Coatl Aerospace CA-A100 Small Dish
+- New tier zero contracts for putting up 2Mm power antennas in low-orbit with low inclination
+- Add some tundra / kolniya orbit contracts for variety
+- Duna is now considered to be an "inner planet" (Mars should be too)
+- Add contract to setup surface level relay at the Dessert Launch Site and Woomerang Launch Site
+- HG-5 and HG-55 are no longer clones of each other 
 
 ### v1.3.1.1 - Dec 23 2017
 
