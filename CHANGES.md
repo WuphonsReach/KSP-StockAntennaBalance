@@ -2,6 +2,8 @@
 
 ### v1.4.4.0 - Jul 29 2018
 
+Tested on KSP 1.4.4, but probably works fine on all versions of KSP 1.4.
+
 - Rebalanced a lot of antenna values to hew closer to 1.4.4 stock values
 - Lower battery capacity requirements on most contracts, some relays have lower power consumption
 - Rebalanced contract requirements, deadlines, rewards (with more notes in ContractGroup.cfg explaining power levels)
