@@ -1,5 +1,11 @@
 # Changes
 
+### v1.4.5.0 - Aug 11 2018
+
+Tested on KSP 1.4.5, but probably works fine on all versions of KSP 1.4.
+
+- Small tweaks to how easy it is to fulfill the inner planet moon contracts (due to Gilly's small SoI).
+
 ### v1.4.4.0 - Jul 29 2018
 
 Tested on KSP 1.4.4, but probably works fine on all versions of KSP 1.4.
