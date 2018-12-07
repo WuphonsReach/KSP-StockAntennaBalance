@@ -11,7 +11,7 @@ set -e
 set -u
 
 BASENAME=StockAntennaBalance
-VERSION=$(git tag -l 'v1.4.4.0' | tail -1)
+VERSION=$(git tag -l 'v1.5.1.0' | tail -1)
 ARCHIVENAME=${BASENAME}-${VERSION}.zip
 
 echo ""
