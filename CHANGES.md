@@ -1,5 +1,11 @@
 # Changes
 
+### v1.5.1.0 - Dec 21 2018
+
+- Reworked some balance to hew closer to 1.5 stock values
+- Removed all use of :FINAL, but may need to add it back for JX2Antenna in future release
+- Some contracts have had their "not be under acceleration" requirement removed
+
 ### v1.4.5.0 - Aug 11 2018
 
 Tested on KSP 1.4.5, but probably works fine on all versions of KSP 1.4.
